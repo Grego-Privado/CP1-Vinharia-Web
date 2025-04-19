@@ -1,5 +1,4 @@
 //Questão - 1
-
 //Valor Undefined
 // let exemplo;
 // console.log(exemplo)
