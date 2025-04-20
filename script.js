@@ -11,6 +11,20 @@
 // let exemplo2 = 1;
 // console.log(exemplo2)
 
+//Questão 2
+
+const a = '30';
+const b = '30';
+const c = 30;
+const d = 10;
+console.log(a == b); //true (mesmo valor)
+console.log(a === b); //true (mesmo tipo e valor)
+console.log(a != b); //false (valores iguais entao não é diferente)
+console.log(a == c) //true (mesmo valor)
+console.log(a === c) //false (tipos diferentes)
+console.log(c >= d) //true (c é maior que d)
+console.log(c >= a) // true (maior OU igual)
+
 //Questão - 8
 // const texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
 // const em = texto.indexOf("em")
@@ -23,8 +37,8 @@
 // console.log("Palavra 'Ciência' encontrada?", ciencia)
 // console.log("Palavra 'métodos' encontrada?", metodos)
 
-//Questão - 9
-let variavel = "1.23"
-variavel = parseFloat(variavel)
-console.log(variavel)
-console.log(typeof variavel)
+// //Questão - 9
+// let variavel = "1.23"
+// variavel = parseFloat(variavel)
+// console.log(variavel)
+// console.log(typeof variavel)
