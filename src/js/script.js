@@ -87,6 +87,20 @@
 // utilizando ternário
 
 
+//Questao 7
+
+// let nome = prompt("Digite seu nome:");
+// let idade = prompt("Digite sua idade:");
+// let curso = prompt("Digite seu curso:");
+// let ano = prompt("Digite o ano :");
+
+// console.log("Nome: " + nome);
+// console.log("Idade: " + idade);
+// console.log("Curso: " + curso);
+// console.log("Ano: " + ano);
+
+
+
 //Questão - 8
 // const texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
 // const em = texto.indexOf("em")
