@@ -25,6 +25,17 @@
 // console.log(c >= d) //true (c é maior que d)
 // console.log(c >= a) // true (maior OU igual)
 
+//Questão - 5
+// let usuario = prompt("Digite o usiário: ")
+// let senha = prompt("Digite a senha: ")
+
+// if(usuario == "admin" && senha == "1234"){
+//     console.log("Acesso liberado")
+// }
+// else{
+//     console.log("PÁ! Acesso Negado!")
+// }
+
 //Questão - 6
 
 let cont = 1
@@ -37,12 +48,8 @@ while(cont<=7){
 let media = soma / 7
 console.log(`A média das notas é: ${media}`)
 
-if(media >= 6){
-    console.log("Parabéns, você passou!")
-}
-else{
-    console.log("Você foi reprovado, vai estudar!")
-}
+resultado = media >= 6 ? "Parabéns, você passou!" : "Você foi reprovado, vai estudar!"
+// utilizando ternário
 
 
 //Questão - 8
