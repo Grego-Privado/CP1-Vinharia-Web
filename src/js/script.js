@@ -25,8 +25,42 @@
 // console.log(c >= d) //true (c é maior que d)
 // console.log(c >= a) // true (maior OU igual)
 
+//Questao 3
+// let imc = parseFloat(prompt("Qual seu IMC?"));
+// let categoria;
+
+// if (imc < 18.5) {
+//     categoria = "abaixo";
+// } else if (imc >= 18.5 && imc <= 24.9) {
+//     categoria = "ideal";
+// } else {
+//     categoria = "acima";
+// }
+
+// switch (categoria) {
+//     case "abaixo":
+//         console.log("Você está abaixo do ideal, vai ter que comer mais.");
+//         break;
+//     case "ideal":
+//         console.log("Você está no peso ideal, tá tranquilo.");
+//         break;
+//     case "acima":
+//         console.log("Você está acima do peso, emagreça.");
+//         break;
+//     default:
+//         console.log("IMC inválido.");
+// }
+
+
+// Questao 4 
+
+
+
+
+
+
 //Questão - 5
-// let usuario = prompt("Digite o usiário: ")
+// let usuario = prompt("Digite o usuário: ")
 // let senha = prompt("Digite a senha: ")
 
 // if(usuario == "admin" && senha == "1234"){
@@ -38,17 +72,17 @@
 
 //Questão - 6
 
-let cont = 1
-let soma = 0
-while(cont<=7){
-    let notas = parseInt(prompt("Digite a nota: "))
-    cont++
-    soma += notas
-}
-let media = soma / 7
-console.log(`A média das notas é: ${media}`)
+// let cont = 1
+// let soma = 0
+// while(cont<=7){
+//     let notas = parseInt(prompt("Digite a nota: "))
+//     cont++
+//     soma += notas
+// }
+// let media = soma / 7
+// console.log(`A média das notas é: ${media}`)
 
-resultado = media >= 6 ? "Parabéns, você passou!" : "Você foi reprovado, vai estudar!"
+// resultado = media >= 6 ? "Parabéns, você passou!" : "Você foi reprovado, vai estudar!"
 // utilizando ternário
 
 
